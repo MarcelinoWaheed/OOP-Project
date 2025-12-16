@@ -46,6 +46,7 @@ public class Circle extends Shape {
 
         // 1.circle
         g.setColor(Color.BLUE);
+        g.fillOval(x, y, r*2, r*2);
         g.drawOval(x, y, r * 2, r * 2);
 
         // 2. text
